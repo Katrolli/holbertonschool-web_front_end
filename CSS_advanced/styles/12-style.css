@@ -40,9 +40,9 @@ a {
 
 .section-title {
     font-family: var(--font-family-title);
-    font-size: var(--font-size-xx-large);
+    font-weight: var(--font-size-xx-large);
     margin: var(--section-title-margin);
-    text-decoration: var(--section-title-color);
+    color: var(--section-title-color);
 }
 
 .section-tagline {
