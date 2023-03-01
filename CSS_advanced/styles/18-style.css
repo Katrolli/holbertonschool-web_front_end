@@ -331,10 +331,10 @@ a:active {
     margin: 0;
     padding: 0;
     list-style: none;
-    align-items: center;
+    text-align: center;
 }
 
-.nav.nav-item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-display);
@@ -343,11 +343,11 @@ a:active {
     margin: var(--nav-item-margin);
 }
 
-.nav.nav-link {
+.nav .nav-link {
     display: block;
     padding: calc(0.5 * 1rem) 1rem;
 }
 
-.nav.nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
