@@ -401,5 +401,8 @@ ul.row {
 
 .social-link {
     display: block;
-    text-rendering: var(--text-color);
+}
+
+.social-link svg {
+    color: var(--text-color);
 }
