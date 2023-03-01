@@ -26,15 +26,15 @@ a:not(:empty) {
     text-decoration: none;
 }
 
-a:not(:empty):visited {
+a:visited {
     font-style: italic;
 }
 
-a:not(:empty):hover {
+a:hover {
     text-decoration-line: underline;
 }
 
-a:not(:empty):active {
+a:active {
     background-color: var(--color-light-grey);
 }
 
